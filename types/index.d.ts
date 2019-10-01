@@ -45,6 +45,12 @@ declare global {
     }
 
     /**
+     * A wrapper for the Selection interface to avoid conflicts with DOM types
+     * @see Selection
+     */
+    interface XDSelection extends Selection {}
+
+    /**
      * The selection object represents the currently selected set of nodes in the UI. You can set the selection to use it as input for commands, or to determine what is left selected for the user when your plugin’s edit operation completes.
      *
      * The current selection state is passed to your command handler function as an argument.

@@ -1352,7 +1352,7 @@ declare class RootNodeClass extends SceneNodeClass {
  * **Since:** XD 14
  * Object representing the current selection state and edit context. Also available as the first argument passed to your plugin command handler function.
  */
-export const selection: SceneNodeList;
+export const selection: XDSelection;
 
 /**
  * **Since:** XD 14
